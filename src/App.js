@@ -15,13 +15,13 @@ const DUMMY_EXPENSES = [
     id: "e2",
     title: "New iPad",
     amount: 27000,
-    date: new Date(2023, 1, 26),
+    date: new Date(2023, 2, 26),
   },
   {
     id: "e1",
     title: "Toilet Paper",
     amount: 94.12,
-    date: new Date(2020, 7, 14),
+    date: new Date(2022, 7, 14),
   },
   {
     id: "e4",
@@ -46,7 +46,7 @@ const App =() => {
 
   return (
     <div className="App">
-      <h1>Hola</h1>
+      {/* <h1>Hola</h1> */}
      <NewExpense onAddExpense={addExpenseHandler}/>
      <Expense items={expenses} />
     </div>
